@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charsed="UTF-8">
+        <title>Juego de IQ</title>
+        <script type="text/javascript" src="funciones.js"></script>
+        <link href="preg.css" rel="stylesheet">
+    </head>
+    <body>
+       
+        <center>
+            
+        <header><h1>PREGUNTAS PARA CALCULAR EL IQ</h1></header>
+        
+        <section id="p0" class="pregunta"></section>
+       
+        <section id="p1">
+        <p for="Pregunta0"><h3>1. Cuando me multiplican por cualquier número, el resultado siempre soy yo:</h3></p>
+        <input type="radio" name="p0" value="1" onclick="respuesta(0,this)" /> a) 2 <br>
+        <input type="radio" name="p0" value="2" onclick="respuesta(0,this)"/> b) 3 <br>
+        <input type="radio" name="p0" value="3" onclick="respuesta(0,this)"/> c) 0 </section>
+
+        <section id="p2">
+        <p><h3>2. Tienes 16 años  y eres cuatro veces mayor que tu primo. Entonces, ¿Cuántos años tendras cuando tu primo tenga 16 años?</h3></p><p id="countdown"></p> 
+        <input type="radio" name="p1" value="1" onclick="respuesta(1,this)" /> a) 32<br>
+        <input type="radio" name="p1" value="2" onclick="respuesta(1,this)"/> b) 28 <br>
+        <input type="radio" name="p1" value="3" onclick="respuesta(1,this)"/> c) 34 </section>
+    
+        <section id="p3">
+        <p><h3>3. ¿Cuál es el próximo número en la secuencia: 29, 27, 24, 20, 15...?</h3></p>
+        <input type="radio" name="p2" value="1" onclick="respuesta(2,this)" /> a) 9<br>
+        <input type="radio" name="p2" value="2" onclick="respuesta(2,this)"/> b) 12 <br>
+        <input type="radio" name="p2" value="3" onclick="respuesta(2,this)"/> c) 10 </section>
+        
+        <section id="p4">
+        <p><h3>4. Si banana se traduce como nanaba, entonces 46251 se traduce como:</h3></p>
+        <input type="radio" name="p3" value="1" onclick="respuesta(3,this)" /> a) 26415<br>
+        <input type="radio" name="p3" value="2" onclick="respuesta(3,this)"/> b) 51462 <br>
+        <input type="radio" name="p3" value="3" onclick="respuesta(3,this)"/> c) 15264 </section>
+
+        <section id="p5">
+        <p><h3>5. Ricardo es más fuerte que Leticia. Leticia es más fuerte que Gabriel. Gabriel es más fuerte que Ricardo y más débil que Carlos. Entonces ¿quién es el más fuerte?</h3></p>
+        <input type="radio" name="p4" value="1" onclick="respuesta(4,this)" /> a) Gabriel<br>
+        <input type="radio" name="p4" value="2" onclick="respuesta(4,this)"/> b) Carlos <br>
+        <input type="radio" name="p4" value="3" onclick="respuesta(4,this)"/> c) Leticia </section>
+
+        <section id="p6">
+        <p><h3>6. Tomas 2 de 3 naranjas ¿Cuántas naranjas tienes ahora? </h3></p>
+        <input type="radio" name="p5" value="1" onclick="respuesta(5,this)" /> a) 3 narajas<br>
+        <input type="radio" name="p5" value="2" onclick="respuesta(5,this)"/> b) 1 naraja <br>
+        <input type="radio" name="p5" value="3" onclick="respuesta(5,this)"/> c) 2 naranjas </section>
+
+        <section id="p7">
+        <p><h3>7. FBG, GBF, HBI, IBH, ... Completa el espacio en blanco</h3></p>
+        <input type="radio" name="p6" value="1" onclick="respuesta(6,this)" /> a) JBI<br>
+        <input type="radio" name="p6" value="2" onclick="respuesta(6,this)"/> b) HBL <br>
+        <input type="radio" name="p6" value="3" onclick="respuesta(6,this)"/> c) JBK </section>
+ 
+        <section id="p8">
+        <p><h3>8. ¿Cuánto es 2/3 de 192?</h3></p>
+        <input type="radio" name="p7" value="1" onclick="respuesta(7,this)" /> a) 128<br>
+        <input type="radio" name="p7" value="2" onclick="respuesta(7,this)"/> b) 118 <br>
+        <input type="radio" name="p7" value="3" onclick="respuesta(7,this)"/> c) 108 </section>
+
+        <section id="p9">
+        <p><h3>9. Un pájaro no siempre tiene:</h3></p>
+        <input type="radio" name="p8" value="1" onclick="respuesta(8,this)" /> a) pico<br>
+        <input type="radio" name="p8" value="2" onclick="respuesta(8,this)"/> b) nido<br>
+        <input type="radio" name="p8" value="3" onclick="respuesta(8,this)"/> c) alas </section>
+
+        <section id="p10">
+        <p><h3>10. ¿Cuándo acabó la segunda guerra mundial? </h3></p>
+        <input type="radio" name="p9" value="1" onclick="respuesta(9,this)"/> a) 1967<br>
+        <input type="radio" name="p9" value="2" onclick="respuesta(9,this)"/> b) 1945 <br>
+        <input type="radio" name="p9" value="3" onclick="respuesta(9,this)"/> c) 1955 </section>
+
+        <section id="p11">
+        <p><h3>11. ¿Quién inventó la bombilla? </h3></p>
+        <input type="radio" name="p10" value="1" onclick="respuesta(10,this)" /> a) Gregor Mendel<br>
+        <input type="radio" name="p10" value="2" onclick="respuesta(10,this)"/> b) Albert Eisntein <br>
+        <input type="radio" name="p10" value="3" onclick="respuesta(10,this)"/> c) Thomas Edison </section>
+
+        <section id="p12">
+        <p><h3>12. ¿Cuánto duró la Guerra de los Cien Años? </h3></p>
+        <input type="radio" name="p11" value="1" onclick="respuesta(11,this)" /> a) 116<br>
+        <input type="radio" name="p11" value="2" onclick="respuesta(11,this)"/> b) 100 <br>
+        <input type="radio" name="p11" value="3" onclick="respuesta(11,this)"/> c) 97 </section>
+
+        <section id="p13">
+        <p><h3>13. ¿Dónde nació Juana de Arco? </h3></p>
+        <input type="radio" name="p12" value="1" onclick="respuesta(12,this)" /> a) Francia<br>
+        <input type="radio" name="p12" value="2" onclick="respuesta(12,this)"/> b) España <br>
+        <input type="radio" name="p12" value="3" onclick="respuesta(12,this)"/> c) Inglaterra </section>
+
+        <section id="p14">
+        <p><h3>14. ¿Qué emperador romano legalizó el cristianismo? </h3></p>
+        <input type="radio" name="p13" value="1" onclick="respuesta(13,this)" /> a) Juan de Lones<br>
+        <input type="radio" name="p13" value="2" onclick="respuesta(13,this)"/> b) Federico <br>
+        <input type="radio" name="p13" value="3" onclick="respuesta(13,this)"/> c) Constantino </section>
+        
+        <section id="p15">
+        <p><h3>15. ¿Qué país del mundo produce más vino? </h3></p>
+        <input type="radio" name="p14" value="1" onclick="respuesta(14,this)" /> a) Francia<br>
+        <input type="radio" name="p14" value="2" onclick="respuesta(14,this)"/> b) México <br>
+        <input type="radio" name="p14" value="3" onclick="respuesta(14,this)"/> c) ITalia </section>
+
+        <section id="p16">
+        <p><h3>16. ¿Cómo se llama el río más famoso de Egipto? </h3></p>
+        <input type="radio" name="p15" value="1" onclick="respuesta(15,this)" /> a) Nilo<br>
+        <input type="radio" name="p15" value="2" onclick="respuesta(15,this)"/> b) Ganges <br>
+        <input type="radio" name="p15" value="3" onclick="respuesta(15,this)"/> c) Amazonas </section>
+
+        <section id="p17">
+        <p><h3>17. ¿Cuántos huesos hay en el cuerpo humano? </h3></p>
+        <input type="radio" name="p16" value="1" onclick="respuesta(16,this)" /> a) 227<br>
+        <input type="radio" name="p16" value="2" onclick="respuesta(16,this)"/> b) 206 <br>
+        <input type="radio" name="p16" value="3" onclick="respuesta(16,this)"/> c) 215 </section>
+
+        <section id="p18">
+        <p><h3>18. ¿Qué elemento de la tabla periódica tiene como símbolo He? </h3></p>
+        <input type="radio" name="p17" value="1" onclick="respuesta(17,this)" /> a) Hidrogeno<br>
+        <input type="radio" name="p17" value="2" onclick="respuesta(17,this)"/> b) Helio <br>
+        <input type="radio" name="p17" value="3" onclick="respuesta(17,this)"/> c) oxineo </section>
+
+        <section id="p19">
+        <p><h3>19. ¿Cuál es el único mamífero capaz de volar? </h3></p>
+        <input type="radio" name="p18" value="1" onclick="respuesta(18,this)" /> a) Murcielago<br>
+        <input type="radio" name="p18" value="2" onclick="respuesta(18,this)"/> b) Gallina <br>
+        <input type="radio" name="p18" value="3" onclick="respuesta(18,this)"/> c) Pinguino </section>
+
+        <section id="p20">
+        <p><h3>20. ¿Cuál fue el primer metal que empleó el hombre? </h3></p>
+        <input type="radio" name="p19" value="1" onclick="respuesta(19,this)" /> a) Plata<br>
+        <input type="radio" name="p19" value="2" onclick="respuesta(19,this)"/> b) Cobre <br> 
+        <input type="radio" name="p19" value="3" onclick="respuesta(19,this)"/> c) Metal
+        </section>
+        <section id="p21">
+        <h3>Tu nivel de IQ es de: <span id="nivel"></span></h3>
+        <button type="button1" onclick="resultado()">Resultado</button> 
+        
+        </section>
+
+        <br>
+        <button type="button" onclick="mostraratras()">Atras</button>
+        <button type="button" onclick="mostrarSiguiente()" >Siguiente</button>
+         
+    </center>
+    </body>
+    

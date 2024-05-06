@@ -1,0 +1,53 @@
+*{
+    box-sizing:border-box;
+    font-family:"Basamic Sans";
+}
+header{
+    text-align:center;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY2MFf5ai3bd__57w1Oyhnyxe99M6f6eERFAX_HI6flg&s);
+    color:white;
+    padding:10px 0;
+    border-radius:20px;
+}
+
+button {
+    display: inline-block;
+    background-color: #072698;
+    color: white;
+    font-size:16px;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: backroug-color 0-3s;
+}
+
+body {
+    font-family: "Arial", sans-serif;
+    background-color:rgb(100, 205, 203);
+    color: black;
+    line-height: 1.6;
+    cursor:pointer;margin: 0;
+    padding: 20px;
+    cursor:pointer;
+
+    display: block; 
+    width: 100%; 
+    padding: 20px; 
+    border-left: 5px solid; 
+    position: relative; 
+    z-index: 2;
+    text-decoration: none;
+    color: black;
+    box-sizing: border-box;  
+    -moz-box-sizing: border-box;  
+    -webkit-box-sizing: border-box; 
+}
+
+section{
+    border:2px solid #01314b;
+    border-radius:20px;
+    padding:10px;
+    margin:50px;
+    display: none;
+}
+

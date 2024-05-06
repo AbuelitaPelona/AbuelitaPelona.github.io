@@ -1,0 +1,36 @@
+.button {
+    display: inline-block;
+    background-color: #840a76c0;
+    color: white;
+    font-size:35px;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: backroug-color 0-3s;
+}
+
+.button:hover {
+    background-color: #58024ebf;
+    color:#0ab7e7;
+}
+
+body {
+    background-color:#7abde0;
+    color: #d276e4;
+    line-height: 1;
+    height: 90vh;
+    margin: 0;
+    font-size:20px;
+    padding: 100px;
+    display: flex;
+    align-items: center;
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#fffefe;
+}
+
+.contenido{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTugtU5faf1bT0wfQGzKD5DNNsSraQ-gJb_iARec8fZxncHmKt0XEafsMO6ZvUEPDsQYiw&usqp=CAU);
+}
